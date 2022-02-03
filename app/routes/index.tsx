@@ -1,12 +1,9 @@
-import info from "/Users/yantingfen/Developer/fp-dreamland/src/assets/svgs/info.svg";
-import more from "/Users/yantingfen/Developer/fp-dreamland/src/assets/svgs/more.svg";
-
-// import info from "@src/assets/info.svg";
-// import info from "@src/assets/more.svg";
+import info from "~/assets/svgs/info.svg";
+import more from "~/assets/svgs/more.svg";
 
 export default function Index() {
   return (
-    <html className=" bg-fp_black">
+    <html className=" bg-fp-black">
       <div className="container mx-auto">
         <h1 className="text-4xl font-medium text-transparent bg-clip-text bg-gradient-to-bl from-lavender to-violets">
           Product
@@ -14,7 +11,7 @@ export default function Index() {
 
         <div className="flex">
           <img src={info} alt="info" />
-          <p className="text-fp_gray font-Rubik px-4 leading-loose">
+          <p className="text-fp-gray font-rubik px-4 leading-loose">
             Updated 3 hours ago
           </p>
           <img src={more} alt="more" />
@@ -33,7 +30,7 @@ export default function Index() {
         <h2 className="text-white text-2xl">
           Efficient, lightweight and simple
         </h2>
-        <ul className="text-white list-disc ml-5 ">
+        <ul className="text-white list-disc ml-5 marker:text-violets">
           <li>Intuitive and quick to use</li>
           <li>Structure your content the way you need it</li>
         </ul>

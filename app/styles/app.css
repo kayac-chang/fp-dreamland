@@ -519,7 +519,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   list-style-type: disc;
 }
 
-.bg-fp_black {
+.bg-fp-black {
   --tw-bg-opacity: 1;
   background-color: rgb(39 37 35 / var(--tw-bg-opacity));
 }
@@ -551,8 +551,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2.25rem;
 }
 
-.font-Rubik {
-  font-family: 'Rubik';
+.font-rubik {
+  font-family: Rubik;
 }
 
 .text-4xl {
@@ -569,11 +569,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 500;
 }
 
+.leading-loose {
+  line-height: 2;
+}
+
 .text-transparent {
   color: transparent;
 }
 
-.text-fp_gray {
+.text-fp-gray {
   --tw-text-opacity: 1;
   color: rgb(165 164 169 / var(--tw-text-opacity));
 }
@@ -591,4 +595,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+.marker\:text-purple-400 *::marker {
+  --tw-text-opacity: 1;
+  color: rgb(192 132 252 / var(--tw-text-opacity));
+}
+
+.marker\:text-violets *::marker {
+  --tw-text-opacity: 1;
+  color: rgb(155 123 250 / var(--tw-text-opacity));
+}
+
+.marker\:text-purple-400::marker {
+  --tw-text-opacity: 1;
+  color: rgb(192 132 252 / var(--tw-text-opacity));
+}
+
+.marker\:text-violets::marker {
+  --tw-text-opacity: 1;
+  color: rgb(155 123 250 / var(--tw-text-opacity));
+}

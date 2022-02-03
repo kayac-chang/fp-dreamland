@@ -3,13 +3,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        fp_black: "#272523",
-        fp_gray: "#A5A4A9",
+        "fp-black": "#272523",
+        "fp-gray": "#A5A4A9",
         lavender: "#BF95F3",
         violets: "#9B7BFA",
       },
       fontFamily: {
-        Rubik: ["'Rubik'"],
+        rubik: ["Rubik"],
       },
       listStyleType: {
         none: "none",
